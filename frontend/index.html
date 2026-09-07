@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoloQuest — The System | Gamified Habit Tracker</title>
+    <meta name="description" content="Solo Leveling-inspired RPG gamified habit tracker with daily quests, Hunter rankings, XP curves, attributes, penalties, and streaks." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234FD8FF'><path d='M12 2L2 19h20L12 2zm0 4.5l6.5 11H5.5L12 6.5z'/></svg>" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'void-black': '#05070D',
+              'deep-navy': '#0B1220',
+              'system-blue': '#4FD8FF',
+              'arise-violet': '#7B5CFA',
+              'warning-red': '#FF3B4E',
+              'ash-white': '#E7ECF5',
+              'muted-slate': '#6C7A94',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#05070D] text-[#E7ECF5] min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
